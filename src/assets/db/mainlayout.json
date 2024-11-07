@@ -1,0 +1,42 @@
+{
+    "Python": [
+        {
+            "title": "literatrue",
+            "content": "literatrue",
+            "url": "https://example.com/nobel-prize",
+            "urlToImage": "/img/python-tutorial-2.webp"
+        },
+        {
+            "title": "2 machine learning...",
+            "content": "John Hopfield and Geoffrey Hinton were awarded the Nobel Prize...",
+            "url": "https://example.com/nobel-prize",
+            "urlToImage": "/image.png"
+        }
+    ],
+    "Java": [
+        {
+            "title": "IT title",
+            "content": "IT content",
+            "url": "http://baidu.com",
+            "urlToImage": "/image.png"
+        },
+        {
+            "title": "Java machine learning...",
+            "content": "John Hddddopfield and Geoffrey Hinton were awarded the Nobel Prize...",
+            "url": "https://example.com/nobel-prize",
+            "urlToImage": "/image.png"
+        },
+        {
+            "title": "How to make Java...",
+            "content": "John Hddddopfield and Geoffrey Hinton were awarded the Nobel Prize...",
+            "url": "https://example.com/nobel-prize",
+            "urlToImage": "/image.png"
+        },
+        {
+            "title": "Tasting java...",
+            "content": "John Hddddopfield and Geoffrey Hinton were awarded the Nobel Prize...",
+            "url": "https://example.com/nobel-prize",
+            "urlToImage": "/image.png"
+        }
+    ]
+}

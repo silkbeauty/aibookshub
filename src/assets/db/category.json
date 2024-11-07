@@ -1,0 +1,188 @@
+{
+    "newsoutlets": [
+        {
+            "name": "New",
+            "title": "New",
+            "image": "logos/new.png"
+        },
+        {
+            "name": "Popular",
+            "title": "Popular",
+            "image": "logos/popular.jpg"
+        }
+    ],
+    "IT": [
+        {
+            "name": "Interview",
+            "title": "Interview",
+            "image": "logos/interview.png"
+        },
+        {
+            "name": "Artificial intelligence",
+            "title": "Artificial intelligence",
+            "image": "logos/ai.png"
+        },
+        {
+            "name": "Python",
+            "title": "Python",
+            "image": "logos/python.png"
+        },
+        {
+            "name": "Java",
+            "title": "Java",
+            "image": "logos/java.png"
+        },
+        {
+            "name": "Algorithm",
+            "title": "Algorithm",
+            "image": "logos/algo.jpg"
+        },
+        {
+            "name": "MERN MEAN",
+            "title": "MERN MEAN",
+            "image": "logos/mern.png"
+        },
+        {
+            "name": "Microservices",
+            "title": "Microservices",
+            "image": "logos/Microservices.png"
+        },
+        {
+            "name": "Big Data",
+            "title": "Big Data",
+            "image": "logos/bigdata.png"
+        },
+        {
+            "name": "Design and Architect",
+            "title": "Design and Architect",
+            "image": "logos/design.jpg"
+        },
+        {
+            "name": "Database",
+            "title": "Database",
+            "image": "logos/db.png"
+        }
+    ],
+
+    "Society": [
+        {
+            "name": "python",
+            "title": "Society",
+            "image": "aljazeraenglish.png"
+        },
+        {
+            "name": "al-jazeera-english",
+            "title": "Society",
+            "image": "aljazeraenglish.png"
+        }
+    ],
+    "Professional": [
+        {
+            "name": "python",
+            "title": "Professional",
+            "image": "aljazeraenglish.png"
+        },
+        {
+            "name": "al-jazeera-english",
+            "title": "Professional",
+            "image": "aljazeraenglish.png"
+        }
+    ],
+    "Science": [
+        {
+            "name": "python",
+            "title": "Science",
+            "image": "aljazeraenglish.png"
+        },
+        {
+            "name": "al-jazeera-english",
+            "title": "Science",
+            "image": "aljazeraenglish.png"
+        }
+    ],
+    "Literature": [
+        {
+            "name": "python",
+            "title": "literature1",
+            "image": "aljazeraenglish.png"
+        },
+        {
+            "name": "al-jazeera-english",
+            "title": "Literature2",
+            "image": "aljazeraenglish.png"
+        }
+    ],
+    "Economy": [
+        {
+            "name": "python",
+            "title": "Economy",
+            "image": "aljazeraenglish.png"
+        },
+        {
+            "name": "al-jazeera-english",
+            "title": "Economy",
+            "image": "aljazeraenglish.png"
+        }
+    ],
+
+    "History": [
+        {
+            "name": "python",
+            "title": "History",
+            "image": "aljazeraenglish.png"
+        },
+        {
+            "name": "al-jazeera-english",
+            "title": "History",
+            "image": "aljazeraenglish.png"
+        }
+    ],
+    "Textbooks": [
+        {
+            "name": "python",
+            "title": "Textbook111",
+            "image": "aljazeraenglish.png"
+        },
+        {
+            "name": "al-jazeera-english",
+            "title": "Textbooks",
+            "image": "aljazeraenglish.png"
+        }
+    ],
+    "School": [
+        {
+            "name": "python",
+            "title": "School",
+            "image": "aljazeraenglish.png"
+        },
+        {
+            "name": "al-jazeera-english",
+            "title": "School",
+            "image": "aljazeraenglish.png"
+        }
+    ],
+    "Arts": [
+        {
+            "name": "python",
+            "title": "Arts111",
+            "image": "aljazeraenglish.png"
+        },
+        {
+            "name": "al-jazeera-english",
+            "title": "Arts",
+            "image": "aljazeraenglish.png"
+        }
+    ],
+    "MBA": [
+        {
+            "name": "Finance122",
+            "title": "Finance221 Basics",
+            "image": "aljazeraenglish.png"
+        },
+        {
+            "name": "Marketing",
+            "title": "Marketing Strategies",
+            "image": "aljazeraenglish.png"
+        }
+    ]
+}
