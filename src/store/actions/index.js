@@ -7,6 +7,10 @@ export const RESET_TAB_DATA = "RESET_TAB_DATA";
 export const CHANGE_URL = "CHANGE_URL";
 export const TOGGLE_HAMBURGER_ICON_VISIBILITY = "TOGGLE_HAMBURGER_ICON_VISIBILITY";
 
+export const FETCH_DB_REQUEST = 'FETCH_DB_REQUEST';
+export const FETCH_DB_SUCCESS = 'FETCH_DB_SUCCESS';
+export const FETCH_DB_FAILURE = 'FETCH_DB_FAILURE';
+
 export const toggleHamburgerIconVisibility = (isHamburgerIconVisible) => ({
   type: TOGGLE_HAMBURGER_ICON_VISIBILITY,
   payload: isHamburgerIconVisible,

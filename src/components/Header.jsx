@@ -1,10 +1,10 @@
 import { useSelector, useDispatch } from "react-redux";
-import db from "../../assets/db/category.json";
+import db from "../assets/db/category.json";
 import {
     toggleHamburgerIconVisibility,
     populateTabData,
-} from "../../store/actions";
-import "./Header.css";
+} from "../store/actions/index.js";
+import "../css/Header.css";
 
 function Header() {
     const dispatch = useDispatch();
