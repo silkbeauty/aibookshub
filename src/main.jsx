@@ -1,12 +1,31 @@
-import { createRoot } from "react-dom/client";
-import App from "./App";
-import { Provider } from "react-redux";
-import store from "./store";
+import * as React from 'react'
+import * as ReactDOM from 'react-dom/client'
+import { createBrowserRouter, RouterProvider, } from "react-router-dom"
+import './css/main.css'
+import './css/book.list.css'
+// ---------------------------------      "icon": "bx bx-camera-movie", 
 
-const container = document.getElementById("root");
-const root = createRoot(container);
-root.render(
-  <Provider store={store}>
-    <App />
-  </Provider>
+import Root     from "./routes/root";
+import OutletRoutes from './routes/outlet.routes.jsx';
+
+import ErrorPage from "./components/error-page";
+
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <Root />,
+        errorElement: <ErrorPage />,
+        children: [
+            {
+                path: ":menu/:submenu/:submenuid",
+                element: <OutletRoutes />,
+            },
+        ],
+    },
+])
+
+ReactDOM.createRoot(document.getElementById("root")).render(
+    <React.StrictMode>
+        <RouterProvider router={router} />
+    </React.StrictMode>
 );

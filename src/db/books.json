@@ -1,0 +1,160 @@
+[
+    {
+        "id":1021,
+        "sub1_id":["IT1", "IT2"],
+        "title": "1Ace the Programming Interview - 160 Questions and Answers for Success",
+        "author": "Edward Guiness",
+        "summary":"This book is a comprehensive resource aimed at helping software engineers prepare for technical interviews at top tech companies. It blends theoretical questions with hands-on problem-solving to develop both technical and soft skills required for success.",
+        "price": 1021,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/IT11.jpg",
+        "download_url":"http://google.com"
+    },
+    {
+        "id":600002,
+        "sub1_id":["IT1", "IT2"],
+        "title": "1Clean Code Handbook - LeetCode 50 Common Interview Questions",
+        "author": "Holly Jackson",
+        "summary":"The book is a resource focused on coding best practices, providing answers to 50 commonly asked programming interview questions. It emphasizes writing clean, readable, and efficient code—qualities that are critical during technical interviews. ",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/IT12.jpg",
+        "download_url":"http://google.com"
+    },
+    {
+        "id":600003,
+        "sub1_id":"IT1",
+        "title": "Coding Interviews - Questions, Analysis & Solutions",
+        "author": "Harry He",
+        "summary":"is a book designed to help prepare for coding interviews at top tech companies. It covers key areas such as programming languages, data structures, algorithms, and optimization methods. The book also includes strategies for solving difficult problems, writing high-quality code, and improving soft skills essential for interviews​",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/IT1.jpg",
+        "download_url":"http://google.com"
+    },
+    {
+        "id":600001,
+        "sub1_id":"IT1",
+        "title": "A Good Girl's Guide to Murder 1",
+        "author": "Holly Jackson",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/woman.jpg"
+    },
+    {
+        "id":600001,
+        "sub1_id":"IT1",
+        "title": "A Good Girl's Guide to Murder 1",
+        "author": "Holly Jackson",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/woman.jpg"
+    },
+    {
+        "id":600001,
+        "sub1_id":"IT1",
+        "title": "A Good Girl's Guide to Murder 1",
+        "author": "Holly Jackson",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/woman.jpg"
+    },
+    {
+        "sub1_id":"10202",
+        "title": "A Goo2d Girl's Guide to Murder",
+        "author": "Holly Jackson",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/woman.jpg"
+    },
+    {
+        "sub1_id":"10202",
+        "title": "A Good Girl's Guide to Murder",
+        "author": "Holly Jackson",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/woman.jpg"
+    },
+    {
+        "id":600001,
+        "sub1_id":"IT1",
+        "title": "A Good Girl's Guide to Murder",
+        "author": "Holly Jackson",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/woman.jpg"
+    },
+    {
+        "sub1_id":"10202",
+        "title": "A Good Girl's Guide to Murder",
+        "author": "Holly Jackson",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/woman.jpg"
+    },
+    {
+        "sub1_id":"IT1",
+        "title": "A Good Girl's Guide to Murder",
+        "author": "Holly Jackson",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/bk.jpg"
+    },
+    {
+        "sub1_id":"IT1",
+        "title": "A Good Girl's Guide to Murder",
+        "author": "Holly Jackson",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/bk.jpg"
+      },
+      {
+        "sub1_id":"IT1",
+        "title": "A Good Girl's Guide to Murder",
+        "author": "Holly Jackson",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "/images/bk.jpg"
+      },
+      {
+        "sub1_id":"IT1",
+        "title": "A Good Girl's Guide to Murder",
+        "author": "Holly Jackson",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "path_to_image/good_girls_guide.jpg"
+      },
+      {
+        "sub1_id":"10203",
+        "title": "A Good Girl's Guide to Murder",
+        "author": "Holly Jackson",
+        "price": 346,
+        "originalPrice": 499,
+        "discount": 30,
+        "cover_image": "path_to_image/good_girls_guide.jpg"
+      },
+        
+    {
+        "sub1_id":"10203",
+        "title": "The Adventures of Sherlock Holmes",
+        "author": "Arthur Conan Doyle",
+        "price": 304,
+        "originalPrice": 399,
+        "discount": 23,
+        "cover_image": "path_to_image/sherlock_holmes.jpg"
+    }
+]

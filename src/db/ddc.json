@@ -1,0 +1,77 @@
+[
+    {
+      "id": 1000,
+      "root_label": "IT",
+      "root_icon": "bx bx-desktop", 
+      "sub1": [
+        { "sub1_id": "IT1", "sub_label": "Interview", "dataBook": "interview" },
+        { "sub1_id": "IT2", "sub_label": "Artificial Intelligence", "dataBook": "ai" },
+        { "sub1_id": "IT3", "sub_label": "Python", "dataBook": "python" },
+        { "sub1_id": "IT4", "sub_label": "Java", "dataBook": "java" },
+        { "sub1_id": "IT5", "sub_label": "Algorithm", "dataBook": "algorithm" },
+        { "sub1_id": "IT6", "sub_label": "MERN", "dataBook": "mern" },
+        { "sub1_id": "IT7", "sub_label": "MEAN", "dataBook": "mean" },
+        { "sub1_id": "IT8", "sub_label": "Microservices", "dataBook": "microservices" },
+        { "sub1_id": "IT9", "sub_label": "Big Data", "dataBook": "bigdata" },
+        { "sub1_id": "IT0", "sub_label": "Design", "dataBook": "design" },
+        { "sub1_id": "ITa", "sub_label": "Database", "dataBook": "database" },
+        { "sub1_id": "ITb", "sub_label": "Networking", "dataBook": "networking" },
+        { "sub1_id": "ITc", "sub_label": "Hardware", "dataBook": "hardware" }
+      ]
+    },
+    {
+        "id": 2000,
+        "root_label": "Literature",
+        "root_icon": "bx bxs-face",
+        "sub1": [
+          { "sub1_id": "L1", "sub_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "L2", "sub_label": "sub22", "dataBook": "jd06" }
+        ]
+    },
+    {
+        "sub1_id": "menu3",
+        "root_label": "TOP3",
+        "icon": "bx bxs-calendar-heart",
+        "sub1": [
+          { "sub1_id": 1021, "sub_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub_label": "sub22", "dataBook": "jd06" }
+        ]
+    },
+    {
+        "sub1_id": "menu4",
+        "root_label": "TOP4",
+        "icon": "bx bxs-home-heart",
+        "sub1": [
+          { "sub1_id": "sub21", "sub_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub_label": "sub22", "dataBook": "jd06" }
+        ]
+    },
+    {
+        "sub1_id": "menu5",
+        "root_label": "TOP5",
+        "icon": "bx bxs-donate-heart",
+        "sub1": [
+          { "sub1_id": "sub21", "sub_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub_label": "sub22", "dataBook": "jd06" }
+        ]
+    },
+    {
+        "sub1_id": "menu6",
+        "root_label": "TOP6",
+        "icon": "bx bxs-happy-heart-eyes",
+        "sub1": [
+          { "sub1_id": "sub21", "sub_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub_label": "sub22", "dataBook": "jd06" }
+        ]
+    },
+    {
+        "sub1_id": "menu7",
+        "root_label": "TOP7",
+        "icon": "bx bxs-face",
+        "sub1": [
+          { "sub1_id": "sub21", "sub_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub_label": "sub22", "dataBook": "jd06" }
+        ]
+    }
+]
+  
