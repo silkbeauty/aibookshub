@@ -1,31 +1,137 @@
 [
     {
-      "id": 1000,
-      "root_label": "IT",
+      "id": 1100,
+      "root_label": "AI",
       "root_icon": "bx bx-desktop", 
       "sub1": [
-        { "sub1_id": "ITall", "sub_label": "All", "dataBook": "all" },
-        { "sub1_id": "ITinterview", "sub_label": "Interview", "dataBook": "interview" },
-        { "sub1_id": "ITai", "sub_label": "Artificial Intelligence", "dataBook": "ai" },
-        { "sub1_id": "ITpython", "sub_label": "Python", "dataBook": "python" },
-        { "sub1_id": "ITjava", "sub_label": "Java", "dataBook": "java" },
-        { "sub1_id": "ITalgo", "sub_label": "Algorithm", "dataBook": "algorithm" },
-        { "sub1_id": "ITmm", "sub_label": "MERN & MEAN", "dataBook": "mernmean" },
-        { "sub1_id": "ITmicro", "sub_label": "Microservices", "dataBook": "microservices" },
-        { "sub1_id": "ITbigdata", "sub_label": "Big Data", "dataBook": "bigdata" },
-        { "sub1_id": "ITdesign", "sub_label": "Design & Architecture", "dataBook": "designarchitecture" },
-        { "sub1_id": "ITdatabase", "sub_label": "Database", "dataBook": "database" },
-        { "sub1_id": "ITnetworking", "sub_label": "Networking", "dataBook": "networking" },
-        { "sub1_id": "IThardware", "sub_label": "Hardware", "dataBook": "hardware" }
+        { "sub1_id": "ai", "sub1_label": "All", "dataBook": "all" },
+        { "sub1_id": "dl", "sub1_label": "Deep Learning", "dataBook": "dl" },
+        { "sub1_id": "ml", "sub1_label": "Machine Learning", "dataBook": "ml" },
+        { "sub1_id": "asr", "sub1_label": "ASR", "dataBook": "asr" },
+        { "sub1_id": "tensorflow", "sub1_label": "Tensorflow", "dataBook": "tensorflow" },
+        { "sub1_id": "pytorch", "sub1_label": "Pytorch", "dataBook": "pytorch" },
+        { "sub1_id": "keras", "sub1_label": "Keras", "dataBook": "keras" },
+        { "sub1_id": "microservices", "sub1_label": "Microservices", "dataBook": "microservices" },
+        { "sub1_id": "bigdata", "sub1_label": "Big Data", "dataBook": "bigdata" },
+        { "sub1_id": "design", "sub1_label": "Design & Architecture", "dataBook": "designarchitecture" },
+        { "sub1_id": "database", "sub1_label": "Database", "dataBook": "database" },
+        { "sub1_id": "networking", "sub1_label": "Networking", "dataBook": "networking" },
+        { "sub1_id": "hardware", "sub1_label": "Hardware", "dataBook": "hardware" }
       ]
     },
+  {
+    "id": 1200,
+    "root_label": "Data Science",
+    "root_icon": "bx bx-desktop",
+    "sub1": [
+      { "sub1_id": "ai", "sub1_label": "All", "dataBook": "all" },
+      { "sub1_id": "interview", "sub1_label": "Interview", "dataBook": "interview" },
+      { "sub1_id": "ai", "sub1_label": "Artificial Intelligence", "dataBook": "ai" },
+      { "sub1_id": "python", "sub1_label": "Python", "dataBook": "python" },
+      { "sub1_id": "java", "sub1_label": "Java", "dataBook": "java" },
+      { "sub1_id": "algo", "sub1_label": "Algorithm", "dataBook": "algorithm" },
+      { "sub1_id": "mernmean", "sub1_label": "MERN & MEAN", "dataBook": "mernmean" },
+      { "sub1_id": "microservices", "sub1_label": "Microservices", "dataBook": "microservices" },
+      { "sub1_id": "bigdata", "sub1_label": "Big Data", "dataBook": "bigdata" },
+      { "sub1_id": "design", "sub1_label": "Design & Architecture", "dataBook": "designarchitecture" },
+      { "sub1_id": "database", "sub1_label": "Database", "dataBook": "database" },
+      { "sub1_id": "networking", "sub1_label": "Networking", "dataBook": "networking" },
+      { "sub1_id": "hardware", "sub1_label": "Hardware", "dataBook": "hardware" }
+    ]
+  },
+  {
+    "id": 1300,
+    "root_label": "Python",
+    "root_icon": "bx bx-desktop",
+    "sub1": [
+      { "sub1_id": "IT", "sub1_label": "All", "dataBook": "all" },
+      { "sub1_id": "interview", "sub1_label": "Interview", "dataBook": "interview" },
+      { "sub1_id": "ai", "sub1_label": "Artificial Intelligence", "dataBook": "ai" },
+      { "sub1_id": "python", "sub1_label": "Python", "dataBook": "python" },
+      { "sub1_id": "java", "sub1_label": "Java", "dataBook": "java" },
+      { "sub1_id": "algo", "sub1_label": "Algorithm", "dataBook": "algorithm" },
+      { "sub1_id": "mernmean", "sub1_label": "MERN & MEAN", "dataBook": "mernmean" },
+      { "sub1_id": "microservices", "sub1_label": "Microservices", "dataBook": "microservices" },
+      { "sub1_id": "bigdata", "sub1_label": "Big Data", "dataBook": "bigdata" },
+      { "sub1_id": "design", "sub1_label": "Design & Architecture", "dataBook": "designarchitecture" },
+      { "sub1_id": "database", "sub1_label": "Database", "dataBook": "database" },
+      { "sub1_id": "networking", "sub1_label": "Networking", "dataBook": "networking" },
+      { "sub1_id": "hardware", "sub1_label": "Hardware", "dataBook": "hardware" }
+    ]
+  },
+  {
+    "id": 1400,
+    "root_label": "Java",
+    "root_icon": "bx bx-desktop",
+    "sub1": [
+      { "sub1_id": "IT", "sub1_label": "All", "dataBook": "all" },
+      { "sub1_id": "interview", "sub1_label": "Interview", "dataBook": "interview" },
+      { "sub1_id": "ai", "sub1_label": "Artificial Intelligence", "dataBook": "ai" },
+      { "sub1_id": "python", "sub1_label": "Python", "dataBook": "python" },
+      { "sub1_id": "java", "sub1_label": "Java", "dataBook": "java" },
+      { "sub1_id": "algo", "sub1_label": "Algorithm", "dataBook": "algorithm" },
+      { "sub1_id": "mernmean", "sub1_label": "MERN & MEAN", "dataBook": "mernmean" },
+      { "sub1_id": "microservices", "sub1_label": "Microservices", "dataBook": "microservices" },
+      { "sub1_id": "bigdata", "sub1_label": "Big Data", "dataBook": "bigdata" },
+      { "sub1_id": "design", "sub1_label": "Design & Architecture", "dataBook": "designarchitecture" },
+      { "sub1_id": "database", "sub1_label": "Database", "dataBook": "database" },
+      { "sub1_id": "networking", "sub1_label": "Networking", "dataBook": "networking" },
+      { "sub1_id": "hardware", "sub1_label": "Hardware", "dataBook": "hardware" }
+    ]
+  },
+
+  {
+    "id": 1500,
+    "root_label": "React",
+    "root_icon": "bx bx-desktop",
+    "sub1": [
+      { "sub1_id": "IT", "sub1_label": "All", "dataBook": "all" },
+      { "sub1_id": "interview", "sub1_label": "Interview", "dataBook": "interview" },
+      { "sub1_id": "ai", "sub1_label": "Artificial Intelligence", "dataBook": "ai" },
+      { "sub1_id": "python", "sub1_label": "Python", "dataBook": "python" },
+      { "sub1_id": "java", "sub1_label": "Java", "dataBook": "java" },
+      { "sub1_id": "algo", "sub1_label": "Algorithm", "dataBook": "algorithm" },
+      { "sub1_id": "mernmean", "sub1_label": "MERN & MEAN", "dataBook": "mernmean" },
+      { "sub1_id": "microservices", "sub1_label": "Microservices", "dataBook": "microservices" },
+      { "sub1_id": "bigdata", "sub1_label": "Big Data", "dataBook": "bigdata" },
+      { "sub1_id": "design", "sub1_label": "Design & Architecture", "dataBook": "designarchitecture" },
+      { "sub1_id": "database", "sub1_label": "Database", "dataBook": "database" },
+      { "sub1_id": "networking", "sub1_label": "Networking", "dataBook": "networking" },
+      { "sub1_id": "hardware", "sub1_label": "Hardware", "dataBook": "hardware" }
+    ]
+  },
+
+  {
+    "id": 1600,
+    "root_label": "IT",
+    "root_icon": "bx bx-desktop",
+    "sub1": [
+      { "sub1_id": "IT", "sub1_label": "All", "dataBook": "all" },
+      { "sub1_id": "interview", "sub1_label": "Interview", "dataBook": "interview" },
+      { "sub1_id": "ai", "sub1_label": "Artificial Intelligence", "dataBook": "ai" },
+      { "sub1_id": "python", "sub1_label": "Python", "dataBook": "python" },
+      { "sub1_id": "java", "sub1_label": "Java", "dataBook": "java" },
+      { "sub1_id": "algo", "sub1_label": "Algorithm", "dataBook": "algorithm" },
+      { "sub1_id": "mernmean", "sub1_label": "MERN & MEAN", "dataBook": "mernmean" },
+      { "sub1_id": "microservices", "sub1_label": "Microservices", "dataBook": "microservices" },
+      { "sub1_id": "bigdata", "sub1_label": "Big Data", "dataBook": "bigdata" },
+      { "sub1_id": "design", "sub1_label": "Design & Architecture", "dataBook": "designarchitecture" },
+      { "sub1_id": "database", "sub1_label": "Database", "dataBook": "database" },
+      { "sub1_id": "networking", "sub1_label": "Networking", "dataBook": "networking" },
+      { "sub1_id": "hardware", "sub1_label": "Hardware", "dataBook": "hardware" }
+    ]
+  },
+
+
+
+
     {
         "id": 2000,
         "root_label": "Literature",
         "root_icon": "bx bxs-face",
         "sub1": [
-          { "sub1_id": "L1", "sub_label": "sub21", "dataBook": "jd01" },
-          { "sub1_id": "L2", "sub_label": "sub22", "dataBook": "jd06" }
+          { "sub1_id": "L1", "sub1_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "L2", "sub1_label": "sub22", "dataBook": "jd06" }
         ]
     },
     {
@@ -33,8 +139,8 @@
         "root_label": "TOP3",
         "icon": "bx bxs-calendar-heart",
         "sub1": [
-          { "sub1_id": 1021, "sub_label": "sub21", "dataBook": "jd01" },
-          { "sub1_id": "sub22", "sub_label": "sub22", "dataBook": "jd06" }
+          { "sub1_id": 1021, "sub1_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub1_label": "sub22", "dataBook": "jd06" }
         ]
     },
     {
@@ -42,8 +148,8 @@
         "root_label": "TOP4",
         "icon": "bx bxs-home-heart",
         "sub1": [
-          { "sub1_id": "sub21", "sub_label": "sub21", "dataBook": "jd01" },
-          { "sub1_id": "sub22", "sub_label": "sub22", "dataBook": "jd06" }
+          { "sub1_id": "sub21", "sub1_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub1_label": "sub22", "dataBook": "jd06" }
         ]
     },
     {
@@ -51,8 +157,8 @@
         "root_label": "TOP5",
         "icon": "bx bxs-donate-heart",
         "sub1": [
-          { "sub1_id": "sub21", "sub_label": "sub21", "dataBook": "jd01" },
-          { "sub1_id": "sub22", "sub_label": "sub22", "dataBook": "jd06" }
+          { "sub1_id": "sub21", "sub1_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub1_label": "sub22", "dataBook": "jd06" }
         ]
     },
     {
@@ -60,8 +166,8 @@
         "root_label": "TOP6",
         "icon": "bx bxs-happy-heart-eyes",
         "sub1": [
-          { "sub1_id": "sub21", "sub_label": "sub21", "dataBook": "jd01" },
-          { "sub1_id": "sub22", "sub_label": "sub22", "dataBook": "jd06" }
+          { "sub1_id": "sub21", "sub1_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub1_label": "sub22", "dataBook": "jd06" }
         ]
     },
     {
@@ -69,8 +175,8 @@
         "root_label": "TOP7",
         "icon": "bx bxs-face",
         "sub1": [
-          { "sub1_id": "sub21", "sub_label": "sub21", "dataBook": "jd01" },
-          { "sub1_id": "sub22", "sub_label": "sub22", "dataBook": "jd06" }
+          { "sub1_id": "sub21", "sub1_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub1_label": "sub22", "dataBook": "jd06" }
         ]
     }
 ]

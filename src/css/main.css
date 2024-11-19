@@ -40,19 +40,19 @@ body{background: #f5f6fa;}
 
 .sidebar .top-menu li{position: relative;list-style: none;transition: all 0.4s ease;}
 .sidebar .top-menu li a{display: flex;align-items: center;text-decoration: none;}
-.sidebar .top-menu li a .top-menu-style{font-size: 18px;font-weight: 400;color: #fff;transition: all 0.4s ease;}
-.sidebar .top-menu li i{height: 50px;min-width: 78px;text-align: center;line-height: 50px;color: #fff;font-size: 20px;cursor: pointer;transition: all 0.3s ease;}
+.sidebar .top-menu li a .top-menu-style{font-size: 15px;font-weight: 500;color: #fff;transition: all 0.4s ease;}
+.sidebar .top-menu li i{height: 40px; min-width: 72px;text-align: center;line-height: 45px;color: #fff; font-size: 18px;cursor: pointer;transition: all 0.3s ease;}
 .sidebar .top-menu li:hover{background: #1d1b31;}
 .sidebar .top-menu li:hover .sub-menu.blank{top: 50%;transform: translateY(-50%);}
 .sidebar .top-menu li .iocn-link{display: flex;align-items: center;justify-content: space-between;}
 .sidebar .top-menu li .sub-menu{
-    max-height: 500px; /* Adjust the max-height to allow submenu content to unfold */
+    max-height: 400px; /* Adjust the max-height to allow submenu content to unfold */
     opacity: 1;  /* Make submenu visible */
     overflow: visible; /* Allows content to be visible */
 }
 
 .sidebar .top-menu li .sub-menu{
-    padding: 6px 6px 14px 80px;  
+    padding: 6px 6px 14px 72px;
     margin-top: -10px;
     background: #1d1b31;
     display: block;
@@ -107,6 +107,18 @@ body{background: #f5f6fa;}
     transition: margin-left 0.5s ease; /* Smooth transition for sidebar toggling */
 }
 
+#detail.loading {
+    opacity: 0.25;
+    transition: opacity 200ms;
+    transition-delay: 200ms;
+}
+
 .sidebar.close ~ #detail {
     margin-left: 0; /* Adjust when the sidebar is closed */
 }
+
+.active-link {
+    color: red;
+    background-color: #3992ff;
+}
+

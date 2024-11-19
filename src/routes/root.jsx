@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { Outlet, Link } from 'react-router-dom';
+import { Outlet, useNavigation, NavLink } from 'react-router-dom';
 
 import ProfileContent from '../components/profile';
 import menuData from '../db/ddc.json'
 
 export default function Root() {
     const [openMenu, setOpenMenu] = useState(null);
+    const navigation = useNavigation();
 
     const toggleMenu = (menu) => {
         setOpenMenu(openMenu === menu ? null : menu); // Toggle the open menu
@@ -33,9 +34,18 @@ export default function Root() {
                                 <ul className="sub-menu">
                                     {menu.sub1.map((subItem) => (
                                         <li key={subItem.id}>
-                                            <Link to={`/${menu.root_label}/${subItem.sub_label}/${subItem.sub1_id}`} className="sidebar-link">
-                                                {subItem.sub_label}
-                                            </Link>
+                                            {/*<NavLink to={`/${menu.root_label}/${subItem.sub1_label}/${subItem.sub1_id}`} className="sidebar-link" activeClassName="active-link">*/}
+                                            {/*    {subItem.sub1_label}*/}
+                                            {/*</NavLink>*/}
+                                            <NavLink
+                                                to={`/${menu.root_label}/${subItem.sub1_label}/${subItem.sub1_id}`}
+                                                className={({ isActive }) =>
+                                                    `sidebar-link ${isActive ? "active-link" : ""}`
+                                                }
+                                            >
+                                                {subItem.sub1_label}
+                                            </NavLink>
+
                                         </li>
                                     ))}
                                 </ul>
@@ -45,7 +55,10 @@ export default function Root() {
                 </ul>
             </aside>
 
-            <div id="detail">
+            <div id="detail"
+                className={
+                navigation.state === "loading" ? "loading" : ""
+            }>
                 <Outlet />
             </div>
         </>
