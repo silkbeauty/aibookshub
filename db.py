@@ -1,6 +1,6 @@
 import streamlit as st
 import dotenv
-CFG = dotenv.dotenv_values(".venv")
+CFG = dotenv.dotenv_values(".env")
 
 from py.db_base_db import DGeneral
 from py.db_summary import DSummary
