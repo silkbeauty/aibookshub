@@ -47,7 +47,7 @@ const OutletRoutes = () => {
     return (
         <div className="product-list">
             <h2>{menu} : {submenu} </h2>
-            <p>Showing {filteredBooks.length} books</p>
+            <p>Finding {filteredBooks.length} books</p>
             <div className="product-grid">
                 {filteredBooks.map((product, index) => (
                     <BookCard key={index} product={product} />

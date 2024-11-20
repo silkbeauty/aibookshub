@@ -1,6 +1,7 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider, } from "react-router-dom"
+import 'boxicons'
 import './css/main.css'
 import './css/book.list.css'
 // ---------------------------------      "icon": "bx bx-camera-movie", 

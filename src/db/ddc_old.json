@@ -2,7 +2,7 @@
     {
       "id": 1100,
       "root_label": "AI",
-      "root_icon": "bx bxs-brain",
+      "root_icon": "bx bxs-face",
       "sub1": [
         { "sub1_id": "ai", "sub1_label": "All", "dataBook": "all" },
         { "sub1_id": "dl", "sub1_label": "Deep Learning", "dataBook": "dl" },
@@ -11,7 +11,7 @@
         { "sub1_id": "tensorflow", "sub1_label": "Tensorflow", "dataBook": "tensorflow" },
         { "sub1_id": "pytorch", "sub1_label": "Pytorch", "dataBook": "pytorch" },
         { "sub1_id": "keras", "sub1_label": "Keras", "dataBook": "keras" },
-        { "sub1_id": "cv", "sub1_label": "Computer Vision", "dataBook": "cv" },
+        { "sub1_id": "microservices", "sub1_label": "Microservices", "dataBook": "microservices" },
         { "sub1_id": "bigdata", "sub1_label": "Big Data", "dataBook": "bigdata" },
         { "sub1_id": "design", "sub1_label": "Design & Architecture", "dataBook": "designarchitecture" },
         { "sub1_id": "database", "sub1_label": "Database", "dataBook": "database" },
@@ -22,7 +22,7 @@
   {
     "id": 1200,
     "root_label": "Data Science",
-    "root_icon": "bx bxs-data",
+    "root_icon": "bx bxs-face",
     "sub1": [
       { "sub1_id": "ai", "sub1_label": "All", "dataBook": "all" },
       { "sub1_id": "interview", "sub1_label": "Interview", "dataBook": "interview" },
@@ -42,8 +42,7 @@
   {
     "id": 1300,
     "root_label": "Python",
-    "root_icon": "bx bxl-python",
-
+    "root_icon": "bx bx-desktop",
     "sub1": [
       { "sub1_id": "IT", "sub1_label": "All", "dataBook": "all" },
       { "sub1_id": "interview", "sub1_label": "Interview", "dataBook": "interview" },
@@ -63,7 +62,7 @@
   {
     "id": 1400,
     "root_label": "Java",
-    "root_icon": "bx bxs-coffee",
+    "root_icon": "bx bx-desktop",
     "sub1": [
       { "sub1_id": "IT", "sub1_label": "All", "dataBook": "all" },
       { "sub1_id": "interview", "sub1_label": "Interview", "dataBook": "interview" },
@@ -84,7 +83,7 @@
   {
     "id": 1500,
     "root_label": "React",
-    "root_icon": "bx bxl-react",
+    "root_icon": "bx bx-desktop",
     "sub1": [
       { "sub1_id": "IT", "sub1_label": "All", "dataBook": "all" },
       { "sub1_id": "interview", "sub1_label": "Interview", "dataBook": "interview" },
@@ -121,6 +120,63 @@
       { "sub1_id": "networking", "sub1_label": "Networking", "dataBook": "networking" },
       { "sub1_id": "hardware", "sub1_label": "Hardware", "dataBook": "hardware" }
     ]
-  }
+  },
+
+
+
+
+    {
+        "id": 2000,
+        "root_label": "Literature",
+        "sub1": [
+          { "sub1_id": "L1", "sub1_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "L2", "sub1_label": "sub22", "dataBook": "jd06" }
+        ]
+    },
+    {
+      "id": 20002,
+        "sub1_id": "menu3",
+        "root_label": "TOP3",
+        "root_icon": "bx bxs-calendar-heart",
+        "sub1": [
+          { "sub1_id": 1021, "sub1_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub1_label": "sub22", "dataBook": "jd06" }
+        ]
+    },
+    {
+        "sub1_id": "menu4",
+        "root_label": "TOP4",
+        "root_icon": "bx bxs-home-heart",
+        "sub1": [
+          { "sub1_id": "sub21", "sub1_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub1_label": "sub22", "dataBook": "jd06" }
+        ]
+    },
+    {
+        "sub1_id": "menu5",
+        "root_label": "TOP5",
+        "root_icon": "bx bxs-donate-heart",
+        "sub1": [
+          { "sub1_id": "sub21", "sub1_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub1_label": "sub22", "dataBook": "jd06" }
+        ]
+    },
+    {
+        "sub1_id": "menu6",
+        "root_label": "TOP6",
+        "root_icon": "bx bxs-happy-heart-eyes",
+        "sub1": [
+          { "sub1_id": "sub21", "sub1_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub1_label": "sub22", "dataBook": "jd06" }
+        ]
+    },
+    {
+        "sub1_id": "menu7",
+        "root_label": "TOP7",
+        "sub1": [
+          { "sub1_id": "sub21", "sub1_label": "sub21", "dataBook": "jd01" },
+          { "sub1_id": "sub22", "sub1_label": "sub22", "dataBook": "jd06" }
+        ]
+    }
 ]
 
