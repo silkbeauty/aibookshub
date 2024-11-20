@@ -55,20 +55,3 @@ class DGeneral(DBase):
         except Exception as e:
             print(f"Error fetching data: {e}")  # Using print for error handling (you can use logging too)
             return pandas.DataFrame()  # Return an empty DataFrame in case of an error
-
-
-    def update_one_table(self, table_name, biz_id):
-
-        try:
-            query = (f"""
-                UPDATE {table_name} 
-                SET  recon_status = 'LOCKED'
-                WHERE biz_id = %s and biz_status = 'f1_recon_w_bank';
-            """)
-
-            self.cursor.execute(query, (biz_id,))
-            self.connection.commit()  # Commit the transaction
-            st.success("updated successfully.")
-        except Exception as e:
-            print(f"Error fetching data: {e}")  # Using print for error handling (you can use logging too)
-            return pandas.DataFrame()  # Return an empty DataFrame in case of an error

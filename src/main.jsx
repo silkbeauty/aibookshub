@@ -4,12 +4,11 @@ import { createBrowserRouter, RouterProvider, } from "react-router-dom"
 import 'boxicons'
 import './css/main.css'
 import './css/book.list.css'
-// ---------------------------------      "icon": "bx bx-camera-movie", 
 
-import Root     from "./routes/root";
+import Root         from "./routes/root";
 import OutletRoutes from './routes/outlet.routes.jsx';
 
-import ErrorPage from "./components/error-page";
+import ErrorPage    from "./components/error-page";
 
 const router = createBrowserRouter([
     {
