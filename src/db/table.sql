@@ -18,3 +18,5 @@ CREATE TABLE books (
 
 -- Alter the sequence to start from 600001
 ALTER SEQUENCE books_id_seq RESTART WITH 600001;
+ALTER TABLE books
+  ALTER COLUMN language_code SET DEFAULT 'en';

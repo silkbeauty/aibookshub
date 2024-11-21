@@ -1,4 +1,4 @@
-import streamlit as st, os
+import streamlit as st, os, re
 import pandas
 
 from .db_base import DBase
@@ -31,22 +31,27 @@ class DGeneral(DBase):
             return df
 
 
-    def check_and_insert(self, directory):
+    def load_books_from_folder(self, directory):
         try:
 
             filenames = [f for f in os.listdir(directory) if os.path.isfile(os.path.join(directory, f))]
 
             for filename in filenames:
                 # Check if the filename exists in the table
-                st.write(filename)
-                self.cursor.execute("SELECT COUNT(*) FROM books WHERE title_upload = %s", (filename,))
+                book_title = filename.replace("\n", " ")
+                book_title = re.sub('《', ' ', book_title)
+                book_title = re.sub('/', ' ', book_title)
+                book_title = re.sub(r'\\', ' ', book_title)
+                book_title = re.sub('》', ' ', book_title)
+                st.write(book_title)
+                self.cursor.execute("SELECT COUNT(*) FROM books WHERE title_upload = %s", (book_title,))
                 if self.cursor.fetchone()[0] > 0:
-                    st.write(f"'{filename}' already exists in the database. Skipping.")
+                    st.write(f"'{book_title}' already exists in the database. Skipping.")
                     continue
 
                 # Insert a new record for the filename
-                self.cursor.execute("INSERT INTO books (title_upload) VALUES (%s)", (filename,))
-                st.write(f"Inserted '{filename}' into the database.")
+                self.cursor.execute("INSERT INTO books (title_upload) VALUES (%s)", (book_title,))
+                st.write(f"Inserted '{book_title}' into the database.")
 
             self.connection.commit()  # Commit the transaction
             self.db_close()
