@@ -6,6 +6,7 @@ import menuData from '../db/ddc.json'
 
 export default function Root() {
     const [openMenu, setOpenMenu] = useState(null);
+    const [topSectionData, setTopSectionData] = useState({ menu: '', submenu: '', filteredBooks: [] });
     const navigation = useNavigation();
 
     const toggleMenu = (menu) => {
@@ -34,9 +35,6 @@ export default function Root() {
                                 <ul className="sub-menu">
                                     {menu.sub1.map((subItem) => (
                                         <li key={subItem.id}>
-                                            {/*<NavLink to={`/${menu.root_label}/${subItem.sub1_label}/${subItem.sub1_id}`} className="sidebar-link" activeClassName="active-link">*/}
-                                            {/*    {subItem.sub1_label}*/}
-                                            {/*</NavLink>*/}
                                             <NavLink
                                                 to={`/${menu.root_label}/${subItem.sub1_label}/${subItem.sub1_id}`}
                                                 className={({ isActive }) =>
@@ -55,11 +53,15 @@ export default function Root() {
                 </ul>
             </aside>
 
-            <div id="detail"
-                className={
-                navigation.state === "loading" ? "loading" : ""
-            }>
-                <Outlet />
+            <div id="detail" className={navigation.state === "loading" ? "loading" : ""}>
+                <div className="top-section">
+                    <h2>{topSectionData.menu} : {topSectionData.submenu}</h2>
+                    <p>Finding {topSectionData.filteredBooks.length} books</p>
+                </div>
+
+                <div className="bottom-section">
+                    <Outlet context={{setTopSection: setTopSectionData}}/>
+                </div>
             </div>
         </>
     );

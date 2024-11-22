@@ -1,15 +1,16 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-import { useParams } from 'react-router-dom';
+import {useOutletContext, useParams} from 'react-router-dom';
 import BookCard from '../components/book.card.jsx';
-// import books from '../db/books.json'; // Static JSON file for now
 
 
 const OutletRoutes = () => {
     const { menu, submenu, submenuid } = useParams();
     const [books, setBooks] = useState([]); // State to store books from API
     const [loading, setLoading] = useState(true);
+    const { setTopSection } = useOutletContext(); // Access context
+    // const [topSection, setTopSection] = useState();
 
     useEffect(() => {
         // Fetch books dynamically
@@ -29,32 +30,28 @@ const OutletRoutes = () => {
     }, []);
 
 
-    // const filteredBooks = books.filter(book => {
-    //     console.log("book.sub1_id:", `"${book.sub1_id}"`, "submenuid:", `"${submenuid}"`);
-    //     // return book.sub1_id.trim() === submenuid.trim();
-    //     return book.sub1_id.includes(submenuid);
-    // });
-
-
     const filteredBooks = books.filter(book => {
         if (!book.sub1_id) return false; // Handle cases where sub1_id is missing
         console.log("Checking book.sub1_id:", book.sub1_id, "against submenuid:", submenuid);
         return book.sub1_id.includes(submenuid); // Match submenuid against sub1_id array
     });
 
+    useEffect(() => {
+        setTopSection({ menu, submenu, filteredBooks });
+    }, [menu, submenu, filteredBooks]);
+
     if (loading) return <p>Loading...</p>;
 
     return (
         <div className="product-list">
-            <h2>{menu} : {submenu} </h2>
-            <p>Finding {filteredBooks.length} books</p>
-            <div className="product-grid">
-                {filteredBooks.map((product, index) => (
-                    <BookCard key={index} product={product} />
-                ))}
-            </div>
+
+                <div className="product-grid">
+                    {filteredBooks.map((product, index) => (
+                        <BookCard key={index} product={product}/>
+                    ))}
+                </div>
         </div>
-    );
+);
 };
 
 export default OutletRoutes;

@@ -41,6 +41,7 @@ class DGeneral(DBase):
                 book_title = filename.replace("\n", " ")
                 book_title = re.sub('《', ' ', book_title)
                 book_title = re.sub('/', ' ', book_title)
+                book_title = re.sub('_', ' ', book_title)
                 book_title = re.sub(r'\\', ' ', book_title)
                 book_title = re.sub('》', ' ', book_title)
                 st.write(book_title)
