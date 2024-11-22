@@ -165,6 +165,9 @@ html, body{background: #f5f6fa;
     width: 100%;
     z-index: 10;  /* Ensures it stays above other content */
     border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #detail .bottom-section {
@@ -172,4 +175,8 @@ html, body{background: #f5f6fa;
     background: #ffffff;
     padding: 10px;
     overflow-y: auto;  /* Allow scrolling for the bottom section */
+}
+
+.dropdown-container {
+    margin-left: auto; /* Push it to the right */
 }

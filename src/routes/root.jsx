@@ -8,9 +8,19 @@ export default function Root() {
     const [openMenu, setOpenMenu] = useState(null);
     const [topSectionData, setTopSectionData] = useState({ menu: '', submenu: '', filteredBooks: [] });
     const navigation = useNavigation();
+    const [dropdownOptions, setDropdownOptions] = useState([]);
 
     const toggleMenu = (menu) => {
         setOpenMenu(openMenu === menu ? null : menu); // Toggle the open menu
+    };
+
+    const handleSubmenuClick = (submenu) => {
+        setDropdownOptions(submenu?.sub2 || []); // Populate dropdown with `sub2` data if available
+        setTopSectionData((prev) => ({
+            ...prev,
+            submenu: submenu.sub1_label,
+            filteredBooks: submenu.dataBook || [],
+        }));
     };
 
     return (
@@ -40,6 +50,7 @@ export default function Root() {
                                                 className={({ isActive }) =>
                                                     `sidebar-link ${isActive ? "active-link" : ""}`
                                                 }
+                                                onClick={() => handleSubmenuClick(subItem)} // Handle submenu click
                                             >
                                                 {subItem.sub1_label}
                                             </NavLink>
@@ -57,6 +68,17 @@ export default function Root() {
                 <div className="top-section">
                     <h2>{topSectionData.menu} : {topSectionData.submenu}</h2>
                     <p>Finding {topSectionData.filteredBooks.length} books</p>
+
+                    <div className="dropdown-container">
+                        <select onChange={(e) => console.log(e.target.value)}>
+                            <option value="">Select an option</option>
+                            {dropdownOptions.map((option) => (
+                                <option key={option.sub2_id} value={option.sub2_id}>
+                                    {option.sub2_label}
+                                </option>
+                            ))}
+                        </select>
+                    </div>
                 </div>
 
                 <div className="bottom-section">

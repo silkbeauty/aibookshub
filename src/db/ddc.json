@@ -5,22 +5,19 @@
     "root_icon": "bx bxs-brain",
     "sub1": [
       { "sub1_id": "ai",        "sub1_label": "All", "dataBook": "all" },
-      { "sub1_id": "networking","sub1_label": "Networking", "dataBook": "networking",
-        "sub2": [
-          { "sub2_id": "research", "sub2_label": "1", "dataBook": "researchpapers" },
-          { "sub2_id": "research", "sub2_label": "1", "dataBook": "researchpapers" },
-          { "sub2_id": "research", "sub2_label": "1", "dataBook": "researchpapers" },
-          { "sub2_id": "research", "sub2_label": "1", "dataBook": "researchpapers" },
-          { "sub2_id": "research", "sub2_label": "1", "dataBook": "researchpapers" },
-          { "sub2_id": "research", "sub2_label": "1", "dataBook": "researchpapers" },
-          { "sub2_id": "research", "sub2_label": "1", "dataBook": "researchpapers" },
-          { "sub2_id": "application", "sub2_label": "Application Papers", "dataBook": "applicationpapers" }
-        ]
-
-      },
+      { "sub1_id": "networking","sub1_label": "Networking", "dataBook": "networking"},
       { "sub1_id": "dl",        "sub1_label": "Deep Learning", "dataBook": "dl" },
       { "sub1_id": "ml",        "sub1_label": "Machine Learning", "dataBook": "ml" },
-      { "sub1_id": "asr",       "sub1_label": "ASR", "dataBook": "asr" },
+      { "sub1_id": "asr",       "sub1_label": "ASR", "dataBook": "asr",
+        "sub2": [
+          { "sub2_id": "research1", "sub2_label": "1research", "dataBook": "researchpapers" },
+          { "sub2_id": "research2", "sub2_label": "12research", "dataBook": "researchpapers" },
+          { "sub2_id": "research3", "sub2_label": "13research", "dataBook": "researchpapers" },
+          { "sub2_id": "research4", "sub2_label": "14research", "dataBook": "researchpapers" },
+          { "sub2_id": "research5", "sub2_label": "15research", "dataBook": "researchpapers" },
+          { "sub2_id": "application", "sub2_label": "Application Papers", "dataBook": "applicationpapers" }
+        ]
+      },
       { "sub1_id": "cv",        "sub1_label": "Computer Vision", "dataBook": "cv" },
       { "sub1_id": "bigdata",   "sub1_label": "Big Data", "dataBook": "bigdata" },
       { "sub1_id": "tensorflow","sub1_label": "Tensorflow", "dataBook": "tensorflow" },
