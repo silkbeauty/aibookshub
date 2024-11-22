@@ -1,3 +1,4 @@
+// root.jsx
 import { useState } from 'react';
 import { Outlet, useNavigation, NavLink } from 'react-router-dom';
 
@@ -47,9 +48,7 @@ export default function Root() {
                                         <li key={subItem.id}>
                                             <NavLink
                                                 to={`/${menu.root_label}/${subItem.sub1_label}/${subItem.sub1_id}`}
-                                                className={({ isActive }) =>
-                                                    `sidebar-link ${isActive ? "active-link" : ""}`
-                                                }
+                                                className={({ isActive }) =>`sidebar-link ${isActive ? "active-link" : ""}`}
                                                 onClick={() => handleSubmenuClick(subItem)} // Handle submenu click
                                             >
                                                 {subItem.sub1_label}
@@ -74,7 +73,7 @@ export default function Root() {
                             <option value="">Select an option</option>
                             {dropdownOptions.map((option) => (
                                 <option key={option.sub2_id} value={option.sub2_id}>
-                                    {option.sub2_label}
+                                    {option.sub2_id}
                                 </option>
                             ))}
                         </select>

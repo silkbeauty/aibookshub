@@ -1,8 +1,21 @@
+// outlet.routes.jsx
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
 import {useOutletContext, useParams} from 'react-router-dom';
 import BookCard from '../components/book.card.jsx';
+
+const Spinner = () => {
+    return (
+        <div className="spinner-layout">
+            <div className="spinner-square">
+                <div className="square-1 square"></div>
+                <div className="square-2 square"></div>
+                <div className="square-3 square"></div>
+            </div>
+        </div>
+    );
+};
 
 
 const OutletRoutes = () => {
@@ -32,7 +45,6 @@ const OutletRoutes = () => {
 
     const filteredBooks = books.filter(book => {
         if (!book.sub1_id) return false; // Handle cases where sub1_id is missing
-        console.log("Checking book.sub1_id:", book.sub1_id, "against submenuid:", submenuid);
         return book.sub1_id.includes(submenuid); // Match submenuid against sub1_id array
     });
 
@@ -41,6 +53,8 @@ const OutletRoutes = () => {
     }, [menu, submenu, filteredBooks]);
 
     if (loading) return <p>Loading...</p>;
+    if (loading) return <Spinner />;
+
 
     return (
         <div className="product-list">

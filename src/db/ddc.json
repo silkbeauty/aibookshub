@@ -10,12 +10,12 @@
       { "sub1_id": "ml",        "sub1_label": "Machine Learning", "dataBook": "ml" },
       { "sub1_id": "asr",       "sub1_label": "ASR", "dataBook": "asr",
         "sub2": [
-          { "sub2_id": "research1", "sub2_label": "1research", "dataBook": "researchpapers" },
-          { "sub2_id": "research2", "sub2_label": "12research", "dataBook": "researchpapers" },
-          { "sub2_id": "research3", "sub2_label": "13research", "dataBook": "researchpapers" },
-          { "sub2_id": "research4", "sub2_label": "14research", "dataBook": "researchpapers" },
-          { "sub2_id": "research5", "sub2_label": "15research", "dataBook": "researchpapers" },
-          { "sub2_id": "application", "sub2_label": "Application Papers", "dataBook": "applicationpapers" }
+          { "sub2_id": "r1", "sub2_label": "1research", "dataBook": "researchpapers" },
+          { "sub2_id": "r2", "sub2_label": "12research", "dataBook": "researchpapers" },
+          { "sub2_id": "r3", "sub2_label": "13research", "dataBook": "researchpapers" },
+          { "sub2_id": "r4", "sub2_label": "14research", "dataBook": "researchpapers" },
+          { "sub2_id": "r5", "sub2_label": "15research", "dataBook": "researchpapers" },
+          { "sub2_id": "app", "sub2_label": "Application Papers", "dataBook": "applicationpapers" }
         ]
       },
       { "sub1_id": "cv",        "sub1_label": "Computer Vision", "dataBook": "cv" },
