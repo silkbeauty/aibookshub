@@ -22,23 +22,24 @@ const OutletRoutes = () => {
     const { menu, submenu, submenuid } = useParams();
     const [books, setBooks] = useState([]); // State to store books from API
     const [loading, setLoading] = useState(true);
-    const { setTopSection } = useOutletContext(); // Access context
-    // const [topSection, setTopSection] = useState();
+    const { setTopSection, selectedSub2Id  } = useOutletContext(); // Access context
+
 
     useEffect(() => {
         // Fetch books dynamically
         const fetchBooks = async () => {
             try {
+                setLoading(true);
                 const response = await axios.get('https://gitbooks.vercel.app/book/list'); // Update this to your backend API endpoint
-                console.log("API Response:", response.data);
+                await new Promise((resolve) => setTimeout(resolve, 1000)); // Simulate delay
                 setBooks(response.data); // Save books in state
-                setLoading(false);
             } catch (error) {
                 console.error("Error fetching books:", error);
                 setLoading(false);
+            }finally {
+                setLoading(false);
             }
         };
-
         fetchBooks();
     }, []);
 
@@ -48,11 +49,15 @@ const OutletRoutes = () => {
         return book.sub1_id.includes(submenuid); // Match submenuid against sub1_id array
     });
 
-    useEffect(() => {
-        setTopSection({ menu, submenu, filteredBooks });
-    }, [menu, submenu, filteredBooks]);
+    const filteredBooksBySub2 = selectedSub2Id
+        ? filteredBooks.filter((book) => book.sub2_id?.includes(selectedSub2Id))
+        : filteredBooks;
 
-    if (loading) return <p>Loading...</p>;
+    useEffect(() => {
+        setTopSection({ menu, submenu, filteredBooks: filteredBooksBySub2 });
+    }, [menu, submenu, filteredBooksBySub2]);
+
+    // if (loading) return <p>Loading...</p>;
     if (loading) return <Spinner />;
 
 
@@ -60,7 +65,7 @@ const OutletRoutes = () => {
         <div className="product-list">
 
                 <div className="product-grid">
-                    {filteredBooks.map((product, index) => (
+                    {filteredBooksBySub2.map((product, index) => (
                         <BookCard key={index} product={product}/>
                     ))}
                 </div>

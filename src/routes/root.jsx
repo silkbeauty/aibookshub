@@ -6,10 +6,18 @@ import ProfileContent from '../components/profile';
 import menuData from '../db/ddc.json'
 
 export default function Root() {
+
+    const navigation = useNavigation();
+
     const [openMenu, setOpenMenu] = useState(null);
     const [topSectionData, setTopSectionData] = useState({ menu: '', submenu: '', filteredBooks: [] });
-    const navigation = useNavigation();
     const [dropdownOptions, setDropdownOptions] = useState([]);
+    const [selectedSub2Id, setSelectedSub2Id] = useState("");
+
+    const handleDropdownChange = (e) => {
+        const value = e.target.value;
+        setSelectedSub2Id(value); // Update the selected `sub2_id`
+    };
 
     const toggleMenu = (menu) => {
         setOpenMenu(openMenu === menu ? null : menu); // Toggle the open menu
@@ -66,10 +74,10 @@ export default function Root() {
             <div id="detail" className={navigation.state === "loading" ? "loading" : ""}>
                 <div className="top-section">
                     <h2>{topSectionData.menu} : {topSectionData.submenu}</h2>
-                    <p>Finding {topSectionData.filteredBooks.length} books</p>
+                    <p> finding {topSectionData.filteredBooks.length} books</p>
 
                     <div className="dropdown-container">
-                        <select onChange={(e) => console.log(e.target.value)}>
+                        <select onChange={handleDropdownChange} value={selectedSub2Id}>
                             <option value="">Select an option</option>
                             {dropdownOptions.map((option) => (
                                 <option key={option.sub2_id} value={option.sub2_id}>
@@ -81,7 +89,7 @@ export default function Root() {
                 </div>
 
                 <div className="bottom-section">
-                    <Outlet context={{setTopSection: setTopSectionData}}/>
+                    <Outlet context={{setTopSection: setTopSectionData, selectedSub2Id}}/>
                 </div>
             </div>
         </>
