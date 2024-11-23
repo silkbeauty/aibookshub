@@ -14,7 +14,7 @@ import ErrorPage    from "./components/error-page";
 const router = createBrowserRouter([
     {
         path: '/', // Root path
-        element: <Navigate to="/AI/All/ai" replace /> // Redirect root to NEW submenu
+        element: <Navigate to="/NEW/All/new" replace /> // Redirect root to NEW submenu
     },
     {
         path: '/:menu/:submenu/:submenuid', // Dynamic paths
