@@ -35,7 +35,6 @@ const OutletRoutes = () => {
                 setBooks(response.data); // Save books in state
             } catch (error) {
                 console.error("Error fetching books:", error);
-                setLoading(false);
             }finally {
                 setLoading(false);
             }

@@ -21,7 +21,7 @@
       { "sub1_id": "cv",        "sub1_label": "Computer Vision", "dataBook": "cv" },
       { "sub1_id": "bigdata",   "sub1_label": "Big Data", "dataBook": "bigdata" },
       { "sub1_id": "tensorflow","sub1_label": "Tensorflow", "dataBook": "tensorflow" },
-      { "sub1_id": "pytorch",   "sub1_label": "Pytorch", "dataBook": "pytorch" },
+      { "sub1_id": "pytorch",   "sub1_label": "Pytorch", "dataBook": "pytorch1" },
       { "sub1_id": "design",    "sub1_label": "Design & Architecture", "dataBook": "designarchitecture" },
       { "sub1_id": "database",  "sub1_label": "Database", "dataBook": "database" },
       { "sub1_id": "hardware",  "sub1_label": "Hardware", "dataBook": "hardware" },
@@ -134,6 +134,14 @@
       { "sub1_id": "database", "sub1_label": "Database", "dataBook": "database" },
       { "sub1_id": "networking", "sub1_label": "Networking", "dataBook": "networking" },
       { "sub1_id": "hardware", "sub1_label": "Hardware", "dataBook": "hardware" }
+    ]
+  },
+  {
+    "id": 9000,
+    "root_label": "NEW",
+    "root_icon": "bx bx-message-square-add",
+    "sub1": [
+      { "sub1_id": "new", "sub1_label": "All", "dataBook": "new" }
     ]
   }
 ]

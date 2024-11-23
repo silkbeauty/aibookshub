@@ -77,7 +77,11 @@ export default function Root() {
                     <p> finding {topSectionData.filteredBooks.length} books</p>
 
                     <div className="dropdown-container">
-                        <select onChange={handleDropdownChange} value={selectedSub2Id}>
+                        <select
+                            className="styled-dropdown"
+                            onChange={handleDropdownChange}
+                            value={selectedSub2Id}
+                        >
                             <option value="">Select an option</option>
                             {dropdownOptions.map((option) => (
                                 <option key={option.sub2_id} value={option.sub2_id}>
