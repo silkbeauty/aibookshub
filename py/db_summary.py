@@ -25,6 +25,7 @@ class DSummary(DBase):
 
         if response.status_code == 200:
             data = response.json()
+            st.write(data)
             if "items" in data:
                 book = data["items"][0]["volumeInfo"]
                 details = {

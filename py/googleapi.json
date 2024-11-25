@@ -1,0 +1,977 @@
+[
+  {
+    "kind": "books#volume",
+    "id": "rUBTBQAAQBAJ",
+    "etag": "wEX9OPmNel4",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/rUBTBQAAQBAJ",
+    "volumeInfo": {
+      "title": "Automatic Speech Recognition",
+      "subtitle": "A Deep Learning Approach",
+      "authors": [
+        "Dong Yu",
+        "Li Deng"
+      ],
+      "publisher": "Springer",
+      "publishedDate": "2014-11-11",
+      "description": "This book provides a comprehensive overview of the recent advancement in the field of automatic speech recognition with a focus on deep learning models including deep neural networks and many of their variants. This is the first automatic speech recognition book dedicated to the deep learning approach. In addition to the rigorous mathematical treatment of the subject, the book also presents insights and theoretical foundation of a series of highly successful deep learning models.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781447157793"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1447157796"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 329,
+      "printType": "BOOK",
+      "categories": [
+        "Technology & Engineering"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": true,
+      "contentVersion": "1.3.4.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=rUBTBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=rUBTBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.ca/books?id=rUBTBQAAQBAJ&printsec=frontcover&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&cd=1&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=rUBTBQAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=rUBTBQAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "CA",
+      "saleability": "FOR_SALE_AND_RENTAL",
+      "isEbook": true,
+      "listPrice": {
+        "amount": 194,
+        "currencyCode": "CAD"
+      },
+      "retailPrice": {
+        "amount": 155.2,
+        "currencyCode": "CAD"
+      },
+      "buyLink": "https://play.google.com/store/books/details?id=rUBTBQAAQBAJ&rdid=book-rUBTBQAAQBAJ&rdot=1&source=gbs_api",
+      "offers": [
+        {
+          "finskyOfferType": 1,
+          "listPrice": {
+            "amountInMicros": 194000000,
+            "currencyCode": "CAD"
+          },
+          "retailPrice": {
+            "amountInMicros": 155200000,
+            "currencyCode": "CAD"
+          },
+          "giftable": true
+        },
+        {
+          "finskyOfferType": 3,
+          "listPrice": {
+            "amountInMicros": 67900000,
+            "currencyCode": "CAD"
+          },
+          "retailPrice": {
+            "amountInMicros": 61110000,
+            "currencyCode": "CAD"
+          },
+          "rentalDuration": {
+            "unit": "DAY",
+            "count": 90
+          }
+        }
+      ]
+    },
+    "accessInfo": {
+      "country": "CA",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.ca/books/download/Automatic_Speech_Recognition-sample-epub.acsm?id=rUBTBQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.ca/books/download/Automatic_Speech_Recognition-sample-pdf.acsm?id=rUBTBQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=rUBTBQAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "This book provides a comprehensive overview of the recent advancement in the field of automatic speech recognition with a focus on deep learning models including deep neural networks and many of their variants."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "aIfbBwAAQBAJ",
+    "etag": "chimsPEXPWI",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/aIfbBwAAQBAJ",
+    "volumeInfo": {
+      "title": "Speech Processing, Recognition and Artificial Neural Networks",
+      "subtitle": "Proceedings of the 3rd International School on Neural Nets “Eduardo R. Caianiello”",
+      "authors": [
+        "Gerard Chollet",
+        "Maria-Gabriella Di Benedetto",
+        "Anna Esposito",
+        "Maria Marinaro"
+      ],
+      "publisher": "Springer Science & Business Media",
+      "publishedDate": "2012-12-06",
+      "description": "Speech Processing, Recognition and Artificial Neural Networks contains papers from leading researchers and selected students, discussing the experiments, theories and perspectives of acoustic phonetics as well as the latest techniques in the field of spe ech science and technology. Topics covered in this book include; Fundamentals of Speech Analysis and Perceptron; Speech Processing; Stochastic Models for Speech; Auditory and Neural Network Models for Speech; Task-Oriented Applications of Automatic Speech Recognition and Synthesis.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781447108450"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1447108450"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 352,
+      "printType": "BOOK",
+      "categories": [
+        "Technology & Engineering"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.1.1.0.preview.1",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=aIfbBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=aIfbBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.ca/books?id=aIfbBwAAQBAJ&printsec=frontcover&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&cd=2&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=aIfbBwAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=aIfbBwAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "CA",
+      "saleability": "FOR_SALE_AND_RENTAL",
+      "isEbook": true,
+      "listPrice": {
+        "amount": 134.3,
+        "currencyCode": "CAD"
+      },
+      "retailPrice": {
+        "amount": 107.44,
+        "currencyCode": "CAD"
+      },
+      "buyLink": "https://play.google.com/store/books/details?id=aIfbBwAAQBAJ&rdid=book-aIfbBwAAQBAJ&rdot=1&source=gbs_api",
+      "offers": [
+        {
+          "finskyOfferType": 1,
+          "listPrice": {
+            "amountInMicros": 134300000,
+            "currencyCode": "CAD"
+          },
+          "retailPrice": {
+            "amountInMicros": 107440000,
+            "currencyCode": "CAD"
+          },
+          "giftable": true
+        },
+        {
+          "finskyOfferType": 3,
+          "listPrice": {
+            "amountInMicros": 47010000,
+            "currencyCode": "CAD"
+          },
+          "retailPrice": {
+            "amountInMicros": 42310000,
+            "currencyCode": "CAD"
+          },
+          "rentalDuration": {
+            "unit": "DAY",
+            "count": 90
+          }
+        }
+      ]
+    },
+    "accessInfo": {
+      "country": "CA",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.ca/books/download/Speech_Processing_Recognition_and_Artifi-sample-pdf.acsm?id=aIfbBwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=aIfbBwAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "Topics covered in this book include; Fundamentals of Speech Analysis and Perceptron; Speech Processing; Stochastic Models for Speech; Auditory and Neural Network Models for Speech; Task-Oriented Applications of Automatic Speech Recognition ..."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "NCvjBwAAQBAJ",
+    "etag": "aGy5ZfvsUu0",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/NCvjBwAAQBAJ",
+    "volumeInfo": {
+      "title": "Automatic Speech and Speaker Recognition",
+      "subtitle": "Advanced Topics",
+      "authors": [
+        "Chin-Hui Lee",
+        "Frank K. Soong",
+        "Kuldip K. Paliwal"
+      ],
+      "publisher": "Springer Science & Business Media",
+      "publishedDate": "2012-12-06",
+      "description": "Research in the field of automatic speech and speaker recognition has made a number of significant advances in the last two decades, influenced by advances in signal processing, algorithms, architectures, and hardware. These advances include: the adoption of a statistical pattern recognition paradigm; the use of the hidden Markov modeling framework to characterize both the spectral and the temporal variations in the speech signal; the use of a large set of speech utterance examples from a large population of speakers to train the hidden Markov models of some fundamental speech units; the organization of speech and language knowledge sources into a structural finite state network; and the use of dynamic, programming based heuristic search methods to find the best word sequence in the lexical network corresponding to the spoken utterance. Automatic Speech and Speaker Recognition: Advanced Topics groups together in a single volume a number of important topics on speech and speaker recognition, topics which are of fundamental importance, but not yet covered in detail in existing textbooks. Although no explicit partition is given, the book is divided into five parts: Chapters 1-2 are devoted to technology overviews; Chapters 3-12 discuss acoustic modeling of fundamental speech units and lexical modeling of words and pronunciations; Chapters 13-15 address the issues related to flexibility and robustness; Chapter 16-18 concern the theoretical and practical issues of search; Chapters 19-20 give two examples of algorithm and implementational aspects for recognition system realization. Audience: A reference book for speech researchers and graduate students interested in pursuing potential research on the topic. May also be used as a text for advanced courses on the subject.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781461313670"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1461313678"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 524,
+      "printType": "BOOK",
+      "categories": [
+        "Technology & Engineering"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.2.2.0.preview.1",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=NCvjBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=NCvjBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.ca/books?id=NCvjBwAAQBAJ&printsec=frontcover&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&cd=3&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=NCvjBwAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=NCvjBwAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "CA",
+      "saleability": "FOR_SALE_AND_RENTAL",
+      "isEbook": true,
+      "listPrice": {
+        "amount": 298.47,
+        "currencyCode": "CAD"
+      },
+      "retailPrice": {
+        "amount": 238.78,
+        "currencyCode": "CAD"
+      },
+      "buyLink": "https://play.google.com/store/books/details?id=NCvjBwAAQBAJ&rdid=book-NCvjBwAAQBAJ&rdot=1&source=gbs_api",
+      "offers": [
+        {
+          "finskyOfferType": 1,
+          "listPrice": {
+            "amountInMicros": 298470000,
+            "currencyCode": "CAD"
+          },
+          "retailPrice": {
+            "amountInMicros": 238780000,
+            "currencyCode": "CAD"
+          },
+          "giftable": true
+        },
+        {
+          "finskyOfferType": 3,
+          "listPrice": {
+            "amountInMicros": 104470000,
+            "currencyCode": "CAD"
+          },
+          "retailPrice": {
+            "amountInMicros": 94020000,
+            "currencyCode": "CAD"
+          },
+          "rentalDuration": {
+            "unit": "DAY",
+            "count": 90
+          }
+        }
+      ]
+    },
+    "accessInfo": {
+      "country": "CA",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.ca/books/download/Automatic_Speech_and_Speaker_Recognition-sample-pdf.acsm?id=NCvjBwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=NCvjBwAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "Although no explicit partition is given, the book is divided into five parts: Chapters 1-2 are devoted to technology overviews; Chapters 3-12 discuss acoustic modeling of fundamental speech units and lexical modeling of words and ..."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "naLaBwAAQBAJ",
+    "etag": "O/G8N+ffgl4",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/naLaBwAAQBAJ",
+    "volumeInfo": {
+      "title": "Connectionist Speech Recognition",
+      "subtitle": "A Hybrid Approach",
+      "authors": [
+        "Hervé A. Bourlard",
+        "Nelson Morgan"
+      ],
+      "publisher": "Springer Science & Business Media",
+      "publishedDate": "2012-12-06",
+      "description": "Connectionist Speech Recognition: A Hybrid Approach describes the theory and implementation of a method to incorporate neural network approaches into state of the art continuous speech recognition systems based on hidden Markov models (HMMs) to improve their performance. In this framework, neural networks (and in particular, multilayer perceptrons or MLPs) have been restricted to well-defined subtasks of the whole system, i.e. HMM emission probability estimation and feature extraction. The book describes a successful five-year international collaboration between the authors. The lessons learned form a case study that demonstrates how hybrid systems can be developed to combine neural networks with more traditional statistical approaches. The book illustrates both the advantages and limitations of neural networks in the framework of a statistical systems. Using standard databases and comparison with some conventional approaches, it is shown that MLP probability estimation can improve recognition performance. Other approaches are discussed, though there is no such unequivocal experimental result for these methods. Connectionist Speech Recognition is of use to anyone intending to use neural networks for speech recognition or within the framework provided by an existing successful statistical approach. This includes research and development groups working in the field of speech recognition, both with standard and neural network approaches, as well as other pattern recognition and/or neural network researchers. The book is also suitable as a text for advanced courses on neural networks or speech processing.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781461532101"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1461532108"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 329,
+      "printType": "BOOK",
+      "categories": [
+        "Technology & Engineering"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.2.2.0.preview.1",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=naLaBwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=naLaBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.ca/books?id=naLaBwAAQBAJ&printsec=frontcover&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&cd=4&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=naLaBwAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=naLaBwAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "CA",
+      "saleability": "FOR_SALE_AND_RENTAL",
+      "isEbook": true,
+      "listPrice": {
+        "amount": 298.47,
+        "currencyCode": "CAD"
+      },
+      "retailPrice": {
+        "amount": 238.78,
+        "currencyCode": "CAD"
+      },
+      "buyLink": "https://play.google.com/store/books/details?id=naLaBwAAQBAJ&rdid=book-naLaBwAAQBAJ&rdot=1&source=gbs_api",
+      "offers": [
+        {
+          "finskyOfferType": 1,
+          "listPrice": {
+            "amountInMicros": 298470000,
+            "currencyCode": "CAD"
+          },
+          "retailPrice": {
+            "amountInMicros": 238780000,
+            "currencyCode": "CAD"
+          },
+          "giftable": true
+        },
+        {
+          "finskyOfferType": 3,
+          "listPrice": {
+            "amountInMicros": 104470000,
+            "currencyCode": "CAD"
+          },
+          "retailPrice": {
+            "amountInMicros": 94020000,
+            "currencyCode": "CAD"
+          },
+          "rentalDuration": {
+            "unit": "DAY",
+            "count": 90
+          }
+        }
+      ]
+    },
+    "accessInfo": {
+      "country": "CA",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.ca/books/download/Connectionist_Speech_Recognition-sample-pdf.acsm?id=naLaBwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=naLaBwAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "The book is also suitable as a text for advanced courses on neural networks or speech processing."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "LCnx6xaDZsIC",
+    "etag": "bTN3ZIbbZhY",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/LCnx6xaDZsIC",
+    "volumeInfo": {
+      "title": "Speech & Language Processing",
+      "authors": [
+        "Dan Jurafsky"
+      ],
+      "publisher": "Pearson Education India",
+      "publishedDate": "2000-09",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_10",
+          "identifier": "8131716724"
+        },
+        {
+          "type": "ISBN_13",
+          "identifier": "9788131716724"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 912,
+      "printType": "BOOK",
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.6.7.0.preview.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=LCnx6xaDZsIC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=LCnx6xaDZsIC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.ca/books?id=LCnx6xaDZsIC&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&cd=5&source=gbs_api",
+      "infoLink": "http://books.google.ca/books?id=LCnx6xaDZsIC&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Speech_Language_Processing.html?hl=&id=LCnx6xaDZsIC"
+    },
+    "saleInfo": {
+      "country": "CA",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "CA",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": true
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=LCnx6xaDZsIC&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "8SCoAabw_m0C",
+    "etag": "f2bnF+aAOVA",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/8SCoAabw_m0C",
+    "volumeInfo": {
+      "title": "The Application of Hidden Markov Models in Speech Recognition",
+      "authors": [
+        "Mark Gales",
+        "Steve Young"
+      ],
+      "publisher": "Now Publishers Inc",
+      "publishedDate": "2008",
+      "description": "The Application of Hidden Markov Models in Speech Recognition presents the core architecture of a HMM-based LVCSR system and proceeds to describe the various refinements which are needed to achieve state-of-the-art performance.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9781601981202"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "1601981201"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 125,
+      "printType": "BOOK",
+      "categories": [
+        "Automatic speech recognition"
+      ],
+      "averageRating": 5,
+      "ratingsCount": 1,
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.3.2.0.preview.1",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=8SCoAabw_m0C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=8SCoAabw_m0C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.ca/books?id=8SCoAabw_m0C&printsec=frontcover&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&cd=6&source=gbs_api",
+      "infoLink": "http://books.google.ca/books?id=8SCoAabw_m0C&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/The_Application_of_Hidden_Markov_Models.html?hl=&id=8SCoAabw_m0C"
+    },
+    "saleInfo": {
+      "country": "CA",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "CA",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.ca/books/download/The_Application_of_Hidden_Markov_Models-sample-pdf.acsm?id=8SCoAabw_m0C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=8SCoAabw_m0C&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "The Application of Hidden Markov Models in Speech Recognition presents the core architecture of a HMM-based LVCSR system and proceeds to describe the various refinements which are needed to achieve state-of-the-art performance."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "mLVQAAAAMAAJ",
+    "etag": "EPe/JHIxK7Q",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/mLVQAAAAMAAJ",
+    "volumeInfo": {
+      "title": "Neural Networks for Speech and Sequence Recognition",
+      "authors": [
+        "Yoshua Bengio"
+      ],
+      "publisher": "London ; Toronto : International Thomson Computer Press",
+      "publishedDate": "1996",
+      "description": "Sequence recognition is a crucial element in many applications in the fields of speech analysis, control, and modeling. This book applies the techniques of neural networks and hidden Markov models to the problems of sequence recognition, and as such will prove valuable to researchers and graduate students alike.",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UOM:39015038446848"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 184,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.4.1.0.preview.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=mLVQAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=mLVQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.ca/books?id=mLVQAAAAMAAJ&q=Automatic+Speech+Recognition+With+Neural+Networks.pdf&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&cd=7&source=gbs_api",
+      "infoLink": "http://books.google.ca/books?id=mLVQAAAAMAAJ&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Neural_Networks_for_Speech_and_Sequence.html?hl=&id=mLVQAAAAMAAJ"
+    },
+    "saleInfo": {
+      "country": "CA",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "CA",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=mLVQAAAAMAAJ&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "This book applies the techniques of neural networks and hidden Markov models to the problems of sequence recognition, and as such will prove valuable to researchers and graduate students alike."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "rFE8DwAAQBAJ",
+    "etag": "sBsE0eMWtHg",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/rFE8DwAAQBAJ",
+    "volumeInfo": {
+      "title": "New Era for Robust Speech Recognition",
+      "subtitle": "Exploiting Deep Learning",
+      "authors": [
+        "Shinji Watanabe",
+        "Marc Delcroix",
+        "Florian Metze",
+        "John R. Hershey"
+      ],
+      "publisher": "Springer",
+      "publishedDate": "2017-10-30",
+      "description": "This book covers the state-of-the-art in deep neural-network-based methods for noise robustness in distant speech recognition applications. It provides insights and detailed descriptions of some of the new concepts and key technologies in the field, including novel architectures for speech enhancement, microphone arrays, robust features, acoustic model adaptation, training data augmentation, and training criteria. The contributed chapters also include descriptions of real-world applications, benchmark tools and datasets widely used in the field. This book is intended for researchers and practitioners working in the field of speech processing and recognition who are interested in the latest deep learning techniques for noise robustness. It will also be of interest to graduate students in electrical engineering or computer science, who will find it a useful guide to this field of research.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9783319646800"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "331964680X"
+        }
+      ],
+      "readingModes": {
+        "text": true,
+        "image": true
+      },
+      "pageCount": 433,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.3.3.0.preview.3",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=rFE8DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=rFE8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.ca/books?id=rFE8DwAAQBAJ&printsec=frontcover&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&cd=8&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=rFE8DwAAQBAJ&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=rFE8DwAAQBAJ"
+    },
+    "saleInfo": {
+      "country": "CA",
+      "saleability": "FOR_SALE_AND_RENTAL",
+      "isEbook": true,
+      "listPrice": {
+        "amount": 238.77,
+        "currencyCode": "CAD"
+      },
+      "retailPrice": {
+        "amount": 191.02,
+        "currencyCode": "CAD"
+      },
+      "buyLink": "https://play.google.com/store/books/details?id=rFE8DwAAQBAJ&rdid=book-rFE8DwAAQBAJ&rdot=1&source=gbs_api",
+      "offers": [
+        {
+          "finskyOfferType": 1,
+          "listPrice": {
+            "amountInMicros": 238770000,
+            "currencyCode": "CAD"
+          },
+          "retailPrice": {
+            "amountInMicros": 191020000,
+            "currencyCode": "CAD"
+          },
+          "giftable": true
+        },
+        {
+          "finskyOfferType": 3,
+          "listPrice": {
+            "amountInMicros": 83580000,
+            "currencyCode": "CAD"
+          },
+          "retailPrice": {
+            "amountInMicros": 75220000,
+            "currencyCode": "CAD"
+          },
+          "rentalDuration": {
+            "unit": "DAY",
+            "count": 90
+          }
+        }
+      ]
+    },
+    "accessInfo": {
+      "country": "CA",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.ca/books/download/New_Era_for_Robust_Speech_Recognition-sample-epub.acsm?id=rFE8DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.ca/books/download/New_Era_for_Robust_Speech_Recognition-sample-pdf.acsm?id=rFE8DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=rFE8DwAAQBAJ&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "This book covers the state-of-the-art in deep neural-network-based methods for noise robustness in distant speech recognition applications."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "hHp5OsnTg54C",
+    "etag": "26CPVivujLM",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/hHp5OsnTg54C",
+    "volumeInfo": {
+      "title": "Artificial Neural Networks - ICANN 2007",
+      "subtitle": "17th International Conference, Porto, Portugal, September 9-13, 2007, Proceedings, Part II",
+      "authors": [
+        "Joaquim Marques de Sá",
+        "Luis A. Alexandre",
+        "Wlodzislaw Duch",
+        "Danilo Mandic"
+      ],
+      "publisher": "Springer",
+      "publishedDate": "2007-09-14",
+      "description": "This book is the second of a two-volume set that constitutes the refereed proceedings of the 17th International Conference on Artificial Neural Networks, ICANN 2007. It features contributions related to computational neuroscience, neurocognitive studies, applications in biomedicine and bioinformatics, pattern recognition, self-organization, text mining and internet applications, signal and times series processing, vision and image processing, robotics, control, and more.",
+      "industryIdentifiers": [
+        {
+          "type": "ISBN_13",
+          "identifier": "9783540746959"
+        },
+        {
+          "type": "ISBN_10",
+          "identifier": "3540746951"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": true
+      },
+      "pageCount": 1010,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "1.16.2.0.preview.1",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=hHp5OsnTg54C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=hHp5OsnTg54C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.ca/books?id=hHp5OsnTg54C&printsec=frontcover&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&cd=9&source=gbs_api",
+      "infoLink": "https://play.google.com/store/books/details?id=hHp5OsnTg54C&source=gbs_api",
+      "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hHp5OsnTg54C"
+    },
+    "saleInfo": {
+      "country": "CA",
+      "saleability": "FOR_SALE_AND_RENTAL",
+      "isEbook": true,
+      "listPrice": {
+        "amount": 134.3,
+        "currencyCode": "CAD"
+      },
+      "retailPrice": {
+        "amount": 107.44,
+        "currencyCode": "CAD"
+      },
+      "buyLink": "https://play.google.com/store/books/details?id=hHp5OsnTg54C&rdid=book-hHp5OsnTg54C&rdot=1&source=gbs_api",
+      "offers": [
+        {
+          "finskyOfferType": 1,
+          "listPrice": {
+            "amountInMicros": 134300000,
+            "currencyCode": "CAD"
+          },
+          "retailPrice": {
+            "amountInMicros": 107440000,
+            "currencyCode": "CAD"
+          },
+          "giftable": true
+        },
+        {
+          "finskyOfferType": 3,
+          "listPrice": {
+            "amountInMicros": 47010000,
+            "currencyCode": "CAD"
+          },
+          "retailPrice": {
+            "amountInMicros": 42310000,
+            "currencyCode": "CAD"
+          },
+          "rentalDuration": {
+            "unit": "DAY",
+            "count": 90
+          }
+        }
+      ]
+    },
+    "accessInfo": {
+      "country": "CA",
+      "viewability": "PARTIAL",
+      "embeddable": true,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.ca/books/download/Artificial_Neural_Networks_ICANN_2007-sample-pdf.acsm?id=hHp5OsnTg54C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=hHp5OsnTg54C&hl=&source=gbs_api",
+      "accessViewStatus": "SAMPLE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "This book is the second of a two-volume set that constitutes the refereed proceedings of the 17th International Conference on Artificial Neural Networks, ICANN 2007."
+    }
+  },
+  {
+    "kind": "books#volume",
+    "id": "_MRQAAAAMAAJ",
+    "etag": "BbkkQ/WHzts",
+    "selfLink": "https://www.googleapis.com/books/v1/volumes/_MRQAAAAMAAJ",
+    "volumeInfo": {
+      "title": "Neural Networks and Speech Processing",
+      "authors": [
+        "David P. Morgan",
+        "Christopher L. Scofield"
+      ],
+      "publisher": "Springer",
+      "publishedDate": "1991-02-28",
+      "description": "We would like to take this opportunity to thank all of those individ uals who helped us assemble this text, including the people of Lockheed Sanders and Nestor, Inc., whose encouragement and support were greatly appreciated. In addition, we would like to thank the members of the Lab oratory for Engineering Man-Machine Systems (LEMS) and the Center for Neural Science at Brown University for their frequent and helpful discussions on a number of topics discussed in this text. Although we both attended Brown from 1983 to 1985, and had offices in the same building, it is surprising that we did not meet until 1988. We also wish to thank Kluwer Academic Publishers for their profes sionalism and patience, and the reviewers for their constructive criticism. Thanks to John McCarthy for performing the final proof, and to John Adcock, Chip Bachmann, Deborah Farrow, Nathan Intrator, Michael Perrone, Ed Real, Lance Riek and Paul Zemany for their comments and assistance. We would also like to thank Khrisna Nathan, our most unbi ased and critical reviewer, for his suggestions for improving the content and accuracy of this text. A special thanks goes to Steve Hoffman, who was instrumental in helping us perform the experiments described in Chapter 9.",
+      "industryIdentifiers": [
+        {
+          "type": "OTHER",
+          "identifier": "UOM:39015021828234"
+        }
+      ],
+      "readingModes": {
+        "text": false,
+        "image": false
+      },
+      "pageCount": 424,
+      "printType": "BOOK",
+      "categories": [
+        "Computers"
+      ],
+      "maturityRating": "NOT_MATURE",
+      "allowAnonLogging": false,
+      "contentVersion": "0.7.6.0.preview.0",
+      "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+      },
+      "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=_MRQAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=_MRQAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+      },
+      "language": "en",
+      "previewLink": "http://books.google.ca/books?id=_MRQAAAAMAAJ&q=Automatic+Speech+Recognition+With+Neural+Networks.pdf&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&cd=10&source=gbs_api",
+      "infoLink": "http://books.google.ca/books?id=_MRQAAAAMAAJ&dq=Automatic+Speech+Recognition+With+Neural+Networks.pdf&hl=&source=gbs_api",
+      "canonicalVolumeLink": "https://books.google.com/books/about/Neural_Networks_and_Speech_Processing.html?hl=&id=_MRQAAAAMAAJ"
+    },
+    "saleInfo": {
+      "country": "CA",
+      "saleability": "NOT_FOR_SALE",
+      "isEbook": false
+    },
+    "accessInfo": {
+      "country": "CA",
+      "viewability": "NO_PAGES",
+      "embeddable": false,
+      "publicDomain": false,
+      "textToSpeechPermission": "ALLOWED",
+      "epub": {
+        "isAvailable": false
+      },
+      "pdf": {
+        "isAvailable": false
+      },
+      "webReaderLink": "http://play.google.com/books/reader?id=_MRQAAAAMAAJ&hl=&source=gbs_api",
+      "accessViewStatus": "NONE",
+      "quoteSharingAllowed": false
+    },
+    "searchInfo": {
+      "textSnippet": "We would like to take this opportunity to thank all of those individ uals who helped us assemble this text, including the people of Lockheed Sanders and Nestor, Inc., whose encouragement and support were greatly appreciated."
+    }
+  }
+]
