@@ -36,7 +36,7 @@ html, body{background: #f5f6fa;
 .sidebar.close .top-menu li:hover .sub-menu{top: 0;opacity: 1;pointer-events: auto;transition: all 0.4s ease;}
 .sidebar.close .top-menu li .sub-menu .top-menu-style{font-size: 18px;opacity: 1;display: block;}
 
-.sidebar .top-menu{height: 100%;padding: 0 0 150px 0;overflow: auto;}
+.sidebar .top-menu{height: 100%;padding: 0 0 150px 0;overflow: auto;overflow-y: hidden;}
 .sidebar .top-menu::-webkit-scrollbar{display: block;}
 
 .sidebar .top-menu ul .sub-menu {    padding-left: 2rem;    margin: 0;   }

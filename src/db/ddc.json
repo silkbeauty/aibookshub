@@ -8,6 +8,10 @@
       { "sub1_id": "networking","sub1_label": "Networking", "dataBook": "networking"},
       { "sub1_id": "dl",        "sub1_label": "Deep Learning", "dataBook": "dl" },
       { "sub1_id": "ml",        "sub1_label": "Machine Learning", "dataBook": "ml" },
+      { "sub1_id": "networking","sub1_label": "Networking", "dataBook": "networking"},
+      { "sub1_id": "dl",        "sub1_label": "Deep Learning", "dataBook": "dl" },
+      { "sub1_id": "networking","sub1_label": "Networking", "dataBook": "networking"},
+      { "sub1_id": "dl",        "sub1_label": "Deep Learning", "dataBook": "dl" },
       { "sub1_id": "asr",       "sub1_label": "ASR", "dataBook": "asr",
         "sub2": [
           { "sub2_id": "r1", "sub2_label": "1research", "dataBook": "researchpapers" },
@@ -41,14 +45,6 @@
       { "sub1_id": "ai", "sub1_label": "All", "dataBook": "all" },
       { "sub1_id": "interview", "sub1_label": "Interview", "dataBook": "interview" },
       { "sub1_id": "ai", "sub1_label": "Artificial Intelligence", "dataBook": "ai" },
-      { "sub1_id": "python", "sub1_label": "Python", "dataBook": "python" },
-      { "sub1_id": "java", "sub1_label": "Java", "dataBook": "java" },
-      { "sub1_id": "algo", "sub1_label": "Algorithm", "dataBook": "algorithm" },
-      { "sub1_id": "mernmean", "sub1_label": "MERN & MEAN", "dataBook": "mernmean" },
-      { "sub1_id": "microservices", "sub1_label": "Microservices", "dataBook": "microservices" },
-      { "sub1_id": "bigdata", "sub1_label": "Big Data", "dataBook": "bigdata" },
-      { "sub1_id": "design", "sub1_label": "Design & Architecture", "dataBook": "designarchitecture" },
-      { "sub1_id": "database", "sub1_label": "Database", "dataBook": "database" },
       { "sub1_id": "networking", "sub1_label": "Networking", "dataBook": "networking" },
       { "sub1_id": "hardware", "sub1_label": "Hardware", "dataBook": "hardware" }
     ]
@@ -63,14 +59,6 @@
       { "sub1_id": "interview", "sub1_label": "Interview", "dataBook": "interview" },
       { "sub1_id": "ai", "sub1_label": "Artificial Intelligence", "dataBook": "ai" },
       { "sub1_id": "python", "sub1_label": "Python", "dataBook": "python" },
-      { "sub1_id": "java", "sub1_label": "Java", "dataBook": "java" },
-      { "sub1_id": "algo", "sub1_label": "Algorithm", "dataBook": "algorithm" },
-      { "sub1_id": "mernmean", "sub1_label": "MERN & MEAN", "dataBook": "mernmean" },
-      { "sub1_id": "microservices", "sub1_label": "Microservices", "dataBook": "microservices" },
-      { "sub1_id": "bigdata", "sub1_label": "Big Data", "dataBook": "bigdata" },
-      { "sub1_id": "design", "sub1_label": "Design & Architecture", "dataBook": "designarchitecture" },
-      { "sub1_id": "database", "sub1_label": "Database", "dataBook": "database" },
-      { "sub1_id": "networking", "sub1_label": "Networking", "dataBook": "networking" },
       { "sub1_id": "hardware", "sub1_label": "Hardware", "dataBook": "hardware" }
     ]
   },
@@ -80,15 +68,6 @@
     "root_icon": "bx bxs-coffee",
     "sub1": [
       { "sub1_id": "IT", "sub1_label": "All", "dataBook": "all" },
-      { "sub1_id": "interview", "sub1_label": "Interview", "dataBook": "interview" },
-      { "sub1_id": "ai", "sub1_label": "Artificial Intelligence", "dataBook": "ai" },
-      { "sub1_id": "python", "sub1_label": "Python", "dataBook": "python" },
-      { "sub1_id": "java", "sub1_label": "Java", "dataBook": "java" },
-      { "sub1_id": "algo", "sub1_label": "Algorithm", "dataBook": "algorithm" },
-      { "sub1_id": "mernmean", "sub1_label": "MERN & MEAN", "dataBook": "mernmean" },
-      { "sub1_id": "microservices", "sub1_label": "Microservices", "dataBook": "microservices" },
-      { "sub1_id": "bigdata", "sub1_label": "Big Data", "dataBook": "bigdata" },
-      { "sub1_id": "design", "sub1_label": "Design & Architecture", "dataBook": "designarchitecture" },
       { "sub1_id": "database", "sub1_label": "Database", "dataBook": "database" },
       { "sub1_id": "networking", "sub1_label": "Networking", "dataBook": "networking" },
       { "sub1_id": "hardware", "sub1_label": "Hardware", "dataBook": "hardware" }
